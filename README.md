@@ -1,4 +1,4 @@
-#technical assignment
+# technical assignment
 
 to run the project just
 
@@ -9,12 +9,12 @@ to run the project just
 then in your browser to go
 http://localhost:8080/swagger-ui.html
 
-##project considerations
+## project considerations
 * the csv files are loaded when the system starts
 * is not possible to add, delete or change any data
 * it sorts the restaurants at load time this means all search runs in worst-case at Θ(n)
 
-##things to done
+## things to done
 * unit tests
 * tests e2e
 * user interface
