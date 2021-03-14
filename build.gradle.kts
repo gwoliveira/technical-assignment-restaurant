@@ -23,6 +23,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.15.1")
+	implementation("org.springdoc:springdoc-openapi-kotlin:1.5.5")
+	implementation("org.springdoc:springdoc-openapi-ui:1.5.5")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
