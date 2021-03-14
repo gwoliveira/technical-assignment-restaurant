@@ -14,7 +14,7 @@ http://localhost:8080/swagger-ui.html
 * is not possible to add, delete or change any data
 * it sorts the restaurants at load time this means all search runs in worst-case at Θ(n)
 
-## things to done
+## things to do
 * unit tests
 * tests e2e
 * user interface
