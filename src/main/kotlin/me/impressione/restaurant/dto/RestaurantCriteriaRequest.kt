@@ -1,9 +1,11 @@
 package me.impressione.restaurant.dto
 
 import com.fasterxml.jackson.annotation.JsonProperty
+import io.swagger.v3.oas.annotations.media.Schema
 import jakarta.validation.constraints.*
 
 data class RestaurantCriteriaRequest(
+    @Schema(defaultValue = "a")
     val name: String? = null,
 
     @field:Min(message = "Min Customer Rating is 1", value = 1)
@@ -23,5 +25,6 @@ data class RestaurantCriteriaRequest(
     @JsonProperty("price")
     val maxPrice: Int? = null,
 
+    @Schema(defaultValue = "Korean")
     val cuisine: String? = null,
 )
